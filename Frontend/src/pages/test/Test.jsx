@@ -1,18 +1,18 @@
-import "./property.scss";
+import "./test.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
-import PropertyData from "../../components/propertyData/propertyData";
+import Datatable from "../../components/datatable/Datatable";
 
-const Property = () => {
+const Test = () => {
   return (
     <div className="list">
       <Sidebar />
       <div className="listContainer">
         <Navbar />
-        <PropertyData />
+        <Datatable />
       </div>
     </div>
   );
 };
 
-export default Property;
+export default Test;
